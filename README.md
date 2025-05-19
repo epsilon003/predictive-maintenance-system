@@ -16,17 +16,18 @@ This is a machine learning-based web application that predicts machine failure u
 ## 📂 Project Structure
 
 ```
-predictive-maintenance-system/app
+predictive-maintenance-system/
 │
-├── app.py                  # Flask backend
-├── rf_model.pkl            # Trained machine learning model
-├── requirements.txt        # Python dependencies
-├── Procfile                # For deployment (Render/Heroku)
-├── templates/
-│   └── index.html          # Web form
-├── static/
-│   └── style.css           # CSS styling
-└── README.md               # Project documentation
+├── data/                    # Raw and processed datasets
+├── models/                  # Trained models (saved as .pkl or .h5)
+├── notebooks/               # Jupyter notebooks for EDA & training
+├── app/                     # Flask app
+│   ├── static/              # CSS, JS files
+│   ├── templates/           # HTML files
+│   └── app.py               # Flask application
+├── requirements.txt         # All dependencies
+├── README.md                # Project overview
+└── train_model.py           # Script to train the model
 ```
 
 ---
