@@ -82,6 +82,7 @@ Open your browser and go to `http://127.0.0.1:5000/`
 - **Algorithm**: Random Forest Classifier
 - **Accuracy**: 99.7%
 - **Metrics**: Precision = 94%, Recall = 97%, F1-score = 95%
+- **Raw Dataset**: [Machine Predictive Maintanence Classification Dataset](https://www.kaggle.com/datasets/shivamb/machine-predictive-maintenance-classification)
 - **Trained On**: Preprocessed machine sensor data (`processed_data.csv`)
 - **Features**: Temperature, Torque, Tool Wear, Rotational Speed, etc.
 
